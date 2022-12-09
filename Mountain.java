@@ -30,19 +30,11 @@ public class Mountain {
         g.fillPolygon(triangle3);
     }
     public static void drawSnow(Graphics g){
-        //change numbers for snowcaps
-        Polygon triangle4 = new Polygon();
-        triangle4.addPoint(600,700);
-        triangle4.addPoint(800, 700);
-        triangle4.addPoint(600,300);
-        g.setColor(new Color(255,255,255));
-        g.fillPolygon(triangle4);
-        Polygon triangle5 = new Polygon();
-        triangle5.addPoint(500,700);
-        triangle5.addPoint(300, 700);
-        triangle5.addPoint(300,300);
-        g.setColor(new Color(255,255,255));
-        g.fillPolygon(triangle5);
+        //change numbers for snow
+        g.setColor(new Color(252,252,255));
+        g.fillRect(0,700,1000,100);
     }
 
     }
+
+

@@ -14,8 +14,8 @@ public class Lab07 extends Applet
         Grass.drawDarkHill(g);
         //Mountain
         Mountain.drawLightRock(g);
-        Mountain.drawSnow(g);
         Mountain.drawDarkRock(g);
+        Mountain.drawSnow(g);
         //Tree
         Tree.drawTrunk(g);
         Tree.drawLeaves(g);
